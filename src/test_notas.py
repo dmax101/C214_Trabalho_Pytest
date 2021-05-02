@@ -3,8 +3,7 @@ import pytest
 from notas import Notas
 
 def test_notas_maior_que_zero_np1enp2():
-    notas = Notas(-2,50)
-    print(notas.p1)
+    notas = Notas(2,-50)
     assert ((notas.p1 < 0) or (notas.p2 < 0)), "values has to be positive"
 
 def test_notas_maior_que_zero_np1enp2enp3():
